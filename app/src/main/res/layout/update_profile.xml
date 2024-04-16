@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vocabbg"
+    tools:context=".UpdateProfileActivity">
+
+    <ImageView
+        android:id="@+id/ivUsernameUpdateProfile"
+        android:layout_width="181dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/un_holder" />
+
+    <ImageView
+        android:id="@+id/ivProfileIconUpdateProfile"
+        android:layout_width="185dp"
+        android:layout_height="190dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26"
+        app:srcCompat="@drawable/userprofile" />
+
+    <ImageView
+        android:id="@+id/ivBgUpdateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgyellow" />
+
+    <Button
+        android:id="@+id/btnDeleteAccount"
+        android:layout_width="144dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#416611"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:letterSpacing="0"
+        android:text="@string/upDelete"
+        android:textAllCaps="false"
+        android:textColor="#FFE55E"
+        android:textSize="20dp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.198"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <Button
+        android:id="@+id/btnSaveChanges"
+        android:layout_width="144dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#416611"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:letterSpacing="0"
+        android:text="@string/upSC"
+        android:textAllCaps="false"
+        android:textColor="#FFE55E"
+        android:textSize="20dp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toEndOf="@+id/btnDeleteAccount"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.878" />
+
+    <TextView
+        android:id="@+id/tvUsernameUpdateProfile"
+        android:layout_width="107dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/futura"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.042" />
+
+    <Button
+        android:id="@+id/btnUpdateProfile"
+        android:layout_width="177dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="4dp"
+        android:backgroundTint="#F7EDD4"
+        android:fontFamily="@font/sniglet"
+        android:letterSpacing="0"
+        android:text="@string/UpdateProfile"
+        android:textAllCaps="false"
+        android:textColor="#193970"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <TextView
+        android:id="@+id/tvViewProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/ViewProfile"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btmNavBarUpdateProfile"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:background="@drawable/navbarholder"
+        app:elevation="10dp"
+        app:itemBackground="@drawable/navbar_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:menu="@menu/nav_menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/PerformanceLayoutUpdateProfile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPerformanceNavBarUpdateProfile"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/performance_con" />
+
+                <TextView
+                    android:id="@+id/PerformanceUpdateProfile"
+                    android:layout_width="72dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/ivPerformanceNavBarUpdateProfile"
+                    android:fontFamily="@font/muli"
+                    android:text="Performance"
+                    android:textColor="@color/white"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/HomeLayoutUpdateProfile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivHomeNavBarUpdateProfile"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/home_icon"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvHomeUpdateProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ivHomeNavBarUpdateProfile"
+                    android:fontFamily="@font/muli"
+                    android:text="Home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ProfileLayoutUpdateProfile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivProfileNavBarUpdateProfile"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/profile_icon"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvProfileUpdateProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ivProfileNavBarUpdateProfile"
+                    android:fontFamily="@font/muli"
+                    android:text="Profile"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <Button
+        android:id="@+id/btnUPInfo"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:foreground="@drawable/infoicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.864"
+        app:layout_constraintStart_toEndOf="@+id/ivUsernameUpdateProfile"
+        app:layout_constraintTop_toTopOf="@+id/ivBgUpdateProfile"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <ImageView
+        android:id="@+id/ivEPForm"
+        android:layout_width="336dp"
+        android:layout_height="267dp"
+        android:layout_marginTop="-4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivProfileIconUpdateProfile"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/edit_profile_form" />
+
+    <TextView
+        android:id="@+id/lblEPUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sniglet"
+        android:text="Edit Username"
+        android:textColor="#418BB8"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivEPForm"
+        app:layout_constraintEnd_toEndOf="@+id/ivEPForm"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toStartOf="@+id/ivEPForm"
+        app:layout_constraintTop_toBottomOf="@+id/ivProfileIconUpdateProfile"
+        app:layout_constraintVertical_bias="0.088" />
+
+    <EditText
+        android:id="@+id/etEPUsername"
+        style="@style/EditTextNoUnderline"
+        android:layout_width="262dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-5dp"
+        android:ems="10"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:hint="Enter your new username"
+        android:inputType="text"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivEPForm"
+        app:layout_constraintEnd_toEndOf="@+id/ivEPForm"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="@+id/ivEPForm"
+        app:layout_constraintTop_toBottomOf="@+id/lblEPUsername"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/lblEPPass"
+        android:layout_width="143dp"
+        android:layout_height="21dp"
+        android:fontFamily="@font/sniglet"
+        android:text="Edit Password"
+        android:textColor="#418BB8"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivEPForm"
+        app:layout_constraintEnd_toEndOf="@+id/ivEPForm"
+        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintStart_toStartOf="@+id/ivEPForm"
+        app:layout_constraintTop_toBottomOf="@+id/etEPUsername"
+        app:layout_constraintVertical_bias="0.056" />
+
+    <EditText
+        android:id="@+id/etEPPass"
+        style="@style/EditTextNoUnderline"
+        android:layout_width="257dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-2dp"
+        android:ems="10"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:hint="Enter your new password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivEPForm"
+        app:layout_constraintEnd_toEndOf="@+id/ivEPForm"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="@+id/ivEPForm"
+        app:layout_constraintTop_toBottomOf="@+id/lblEPPass"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:id="@+id/lblEPConfirmPass"
+        android:layout_width="183dp"
+        android:layout_height="23dp"
+        android:fontFamily="@font/sniglet"
+        android:text="Confirm Password"
+        android:textColor="#418BB8"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivEPForm"
+        app:layout_constraintEnd_toEndOf="@+id/ivEPForm"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="@+id/ivEPForm"
+        app:layout_constraintTop_toBottomOf="@+id/etEPPass"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <EditText
+        android:id="@+id/etEPConfirmPass"
+        style="@style/EditTextNoUnderline"
+        android:layout_width="267dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-5dp"
+        android:ems="10"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:hint="Retype your new password"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivEPForm"
+        app:layout_constraintEnd_toEndOf="@+id/ivEPForm"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="@+id/ivEPForm"
+        app:layout_constraintTop_toBottomOf="@+id/lblEPConfirmPass"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <TextView
+        android:id="@+id/tvEPErrorPass"
+        android:layout_width="287dp"
+        android:layout_height="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="-3dp"
+        android:fontFamily="@font/futura"
+        android:textColor="#E6453F"
+        android:textSize="9sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/lblEPConfirmPass"
+        app:layout_constraintEnd_toEndOf="@+id/etEPPass"
+        app:layout_constraintHorizontal_bias="0.566"
+        app:layout_constraintStart_toStartOf="@+id/etEPPass"
+        app:layout_constraintTop_toBottomOf="@+id/etEPPass"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvEPErrorConfirmPass"
+        android:layout_width="264dp"
+        android:layout_height="17dp"
+        android:layout_marginLeft="-13dp"
+        android:layout_marginBottom="-15dp"
+        android:fontFamily="@font/futura"
+        android:textColor="#E6453F"
+        android:textSize="9sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/etEPConfirmPass"
+        app:layout_constraintEnd_toEndOf="@+id/etEPConfirmPass"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/etEPConfirmPass"
+        app:layout_constraintTop_toTopOf="@+id/etEPConfirmPass"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tvEPErrorUsername"
+        android:layout_width="268dp"
+        android:layout_height="13dp"
+        android:fontFamily="@font/futura"
+        android:textColor="#E6453F"
+        android:textSize="9sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/etEPUsername"
+        app:layout_constraintEnd_toEndOf="@+id/etEPUsername"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/etEPUsername"
+        app:layout_constraintTop_toTopOf="@+id/etEPUsername"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

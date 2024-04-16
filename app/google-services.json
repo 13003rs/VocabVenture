@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "740857586537",
+    "firebase_url": "https://finalprojectvocabventure-eb81e-default-rtdb.firebaseio.com",
+    "project_id": "finalprojectvocabventure-eb81e",
+    "storage_bucket": "finalprojectvocabventure-eb81e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740857586537:android:e5c20e586addfa446913f8",
+        "android_client_info": {
+          "package_name": "com.example.finalprojectvocabventure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEBqOX_JIwUZx6p01g0zlxjDPk8NwZjaM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

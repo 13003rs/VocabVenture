@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vocabbg"
+    tools:context=".ViewProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/ivViewProfileForm"
+        android:layout_width="384dp"
+        android:layout_height="290dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivViewProfileIcon"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/form" />
+
+    <ImageView
+        android:id="@+id/ivViewProfileIcon"
+        android:layout_width="185dp"
+        android:layout_height="190dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ivBGViewProfile"
+        app:layout_constraintVertical_bias="0.262"
+        app:srcCompat="@drawable/userprofile" />
+
+    <ImageView
+        android:id="@+id/ivUsernameViewProfile"
+        android:layout_width="181dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/un_holder" />
+
+    <ImageView
+        android:id="@+id/ivBGViewProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bgyellow" />
+
+    <Button
+        android:id="@+id/btnViewProfile"
+        android:layout_width="165dp"
+        android:layout_height="56dp"
+        android:layout_marginLeft="-4dp"
+        android:backgroundTint="#F7EDD4"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/ViewProfile"
+        android:textAllCaps="false"
+        android:textColor="#193970"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.191"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <TextView
+        android:id="@+id/tvUpdateProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/UpdateProfile"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <TextView
+        android:id="@+id/tvUsernameViewProfile"
+        android:layout_width="106dp"
+        android:layout_height="22dp"
+        android:layout_marginLeft="7dp"
+        android:fontFamily="@font/futura"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.217"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <TextView
+        android:id="@+id/lblVPusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/vpUN"
+        android:textColor="#418BB8"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivViewProfileForm"
+        app:layout_constraintEnd_toEndOf="@+id/ivViewProfileForm"
+        app:layout_constraintHorizontal_bias="0.257"
+        app:layout_constraintStart_toStartOf="@+id/ivViewProfileForm"
+        app:layout_constraintTop_toBottomOf="@+id/ivViewProfileIcon"
+        app:layout_constraintVertical_bias="0.112" />
+
+    <TextView
+        android:id="@+id/lblVPEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/vpEmail"
+        android:textColor="#418BB8"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivViewProfileForm"
+        app:layout_constraintEnd_toEndOf="@+id/ivViewProfileForm"
+        app:layout_constraintHorizontal_bias="0.216"
+        app:layout_constraintStart_toStartOf="@+id/ivViewProfileForm"
+        app:layout_constraintTop_toBottomOf="@+id/lblVPusername"
+        app:layout_constraintVertical_bias="0.288" />
+
+    <TextView
+        android:id="@+id/lblVPGrLvl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/vpGL"
+        android:textColor="#418BB8"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ivViewProfileForm"
+        app:layout_constraintEnd_toEndOf="@+id/ivViewProfileForm"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toStartOf="@+id/ivViewProfileForm"
+        app:layout_constraintTop_toBottomOf="@+id/lblVPEmail"
+        app:layout_constraintVertical_bias="0.495" />
+
+    <Button
+        android:id="@+id/btnLogOut"
+        android:layout_width="117dp"
+        android:layout_height="54dp"
+        android:backgroundTint="#416611"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:text="Logout"
+        android:textAllCaps="false"
+        android:textColor="#FFE55E"
+        android:textSize="20sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivViewProfileForm"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btmNavBarViewProfile"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:background="@drawable/navbarholder"
+        app:elevation="10dp"
+        app:itemBackground="@drawable/navbar_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:menu="@menu/nav_menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/PerformanceLayoutViewProfile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPerformanceNavBarViewProfile"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/performance_con" />
+
+                <TextView
+                    android:id="@+id/PerformanceViewProfile"
+                    android:layout_width="72dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/ivPerformanceNavBarViewProfile"
+                    android:fontFamily="@font/muli"
+                    android:text="Performance"
+                    android:textColor="@color/white"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/HomeLayoutViewProfile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivHomeNavBarViewProfile"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/home_icon"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvHomeViewProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ivHomeNavBarViewProfile"
+                    android:fontFamily="@font/muli"
+                    android:text="Home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ProfileLayoutViewProfile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivProfileNavBarViewProfile"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/profile_icon"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvProfileViewProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ivProfileNavBarViewProfile"
+                    android:fontFamily="@font/muli"
+                    android:text="Profile"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+    <TextView
+        android:id="@+id/tvVPUsername"
+        android:layout_width="171dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-10dp"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogOut"
+        app:layout_constraintEnd_toEndOf="@+id/ivViewProfileForm"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/lblVPusername"
+        app:layout_constraintTop_toTopOf="@+id/ivViewProfileForm"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <TextView
+        android:id="@+id/tvVPEmail"
+        android:layout_width="214dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-7dp"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogOut"
+        app:layout_constraintEnd_toEndOf="@+id/ivViewProfileForm"
+        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintStart_toEndOf="@+id/lblVPEmail"
+        app:layout_constraintTop_toBottomOf="@+id/tvVPUsername"
+        app:layout_constraintVertical_bias="0.278" />
+
+    <TextView
+        android:id="@+id/tvVPGradeLvl"
+        android:layout_width="165dp"
+        android:layout_height="31dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogOut"
+        app:layout_constraintEnd_toEndOf="@+id/ivViewProfileForm"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toEndOf="@+id/lblVPGrLvl"
+        app:layout_constraintTop_toBottomOf="@+id/tvVPEmail"
+        app:layout_constraintVertical_bias="0.453" />
+
+    <Button
+        android:id="@+id/btnVPInfo"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-5dp"
+        android:foreground="@drawable/infoicon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintStart_toEndOf="@+id/ivUsernameViewProfile"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.032" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

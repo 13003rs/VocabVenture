@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vocabbg"
+    tools:context=".Privacy_Policy">
+
+    <Button
+        android:id="@+id/acceptButtonPrivacy"
+        android:layout_width="98dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:onClick="onAcceptButtonClick"
+        android:text="Accept"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/accept_button_background" />
+
+    <Button
+        android:id="@+id/declineButtonPrivacy"
+        android:layout_width="98dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="18dp"
+        android:layout_toStartOf="@id/acceptButtonPrivacy"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:onClick="onDeclineButtonClick"
+        android:text="Decline"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/decline_button_background" />
+
+    <TextView
+        android:id="@+id/tvPrivacy"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/popup"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:text="\t           Privacy and Policy"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="35sp"
+        android:background="@drawable/vocablogo" />
+
+    <View
+        android:id="@+id/Pline"
+        android:layout_width="13in"
+        android:layout_marginLeft="25sp"
+        android:layout_height="3dp"
+        android:layout_marginTop="100sp"
+        android:background="@color/black"  />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="575dp"
+        android:layout_below="@+id/Pline"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/popup"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvPrivacy1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="\tJDRKC built the VocabVenture  app as a Free app. This SERVICE is provided by JDRKC at no cost and is intended for use as is. \n\n
+This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service. \n\n
+If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy. \n\n
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at JDRKC unless otherwise defined in this Privacy Policy.
+" />
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:layout_marginBottom="0sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="Information Collection and Use"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvPrivacy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="For a better experience, while using our Service, We may require you to provide us with certain personally identifiable information, including but not limited to Vocab. The information that we request will be retained on your device and is not collected by me in any way. \n\n
+The app does use third-party services that may collect information used to identify you. Link to the privacy policy of third-party service providers used by the app. \n\n
+Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory. \n\n
+This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service."/>
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:layout_marginBottom="0sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="Security"
+                android:textColor="@color/black"
+                android:textSize="25sp"  />
+
+            <TextView
+                android:id="@+id/tvPrivacy3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="-15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:textSize="15sp"
+                android:text="We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security." />
+
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="Links to Other Sites"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/tvPrivacy4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="-15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:textSize="15sp"
+                android:text="This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. we have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services." />
+
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="Children's Privacy"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/tvPrivacy5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="-15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:textSize="15sp"
+                android:text="Our services are designed to be enjoyed by users of all ages, including those under 13, as we cater to the whole grade school scope. It's important to note that while the app is accessible to younger users, we do not intentionally collect personally identifiable information from children under 13. Unlike some platforms, we do not engage in the deletion of personal information provided by younger users. For parents or guardians of users under the age of 8, we recommend providing supervision during app usage. If you have any concerns or need assistance, feel free to contact us."/>
+
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="Changes to this Privacy Policy"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/tvPrivacy6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="-15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:textSize="15sp"
+                android:text="We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. This policy is effective as of 2023-11-16" />
+
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="Contact Us"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvPrivacy7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="-15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:textSize="15sp"
+                android:autoLink="email"
+                android:text="If you have any questions or suggestions about our Terms and Conditions and Privacy Policy, do not hesitate to contact us at venturevocab@gmail.com. \n" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="54dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50sp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+</RelativeLayout>

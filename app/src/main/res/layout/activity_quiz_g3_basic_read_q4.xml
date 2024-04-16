@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g3basicread_bg"
+    tools:context=".QuizG3BasicReadQ4">
+
+    <ImageView
+        android:id="@+id/you_sound"
+        android:layout_width="80dp"
+        android:layout_height="72dp"
+        android:layout_marginStart="168dp"
+        android:background="@drawable/soundbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35" />
+
+    <TextView
+        android:id="@+id/btn_when"
+        android:layout_width="104dp"
+        android:layout_height="50dp"
+        android:fontFamily="@font/sniglet"
+        android:text="when"
+        android:textColor="@color/black"
+        android:textSize="43sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.526" />
+
+    <TextView
+        android:id="@+id/btn_you"
+        android:layout_width="96dp"
+        android:layout_height="53dp"
+        android:fontFamily="@font/sniglet"
+        android:text="you"
+        android:textColor="@color/black"
+        android:textSize="43sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.662" />
+
+    <TextView
+        android:id="@+id/btn_kan"
+        android:layout_width="94dp"
+        android:layout_height="56dp"
+        android:fontFamily="@font/sniglet"
+        android:text="can"
+        android:textColor="@color/black"
+        android:textSize="43sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.53"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.795" />
+
+    <TextView
+        android:id="@+id/btncount"
+        android:layout_width="45dp"
+        android:layout_height="29dp"
+        android:fontFamily="@font/sniglet"
+        android:text="4 of 5"
+        android:textColor="@color/darkblue"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.956"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

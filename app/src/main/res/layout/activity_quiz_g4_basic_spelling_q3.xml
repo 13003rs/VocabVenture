@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g4basicspellq3"
+    tools:context=".QuizG4BasicSpellingQ3">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="239dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:focusable="false"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:gravity="center"
+        android:letterSpacing="0.5"
+        android:padding="10dp"
+        android:textColor="#332FA2"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.571" />
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="296dp"
+        android:layout_height="159dp"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="Ammo"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/firstLineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.024"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="400dp"
+        android:layout_height="6dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="@+id/secondLineLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstLineLayout"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/secondLineLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.335"
+        tools:ignore="MissingConstraints">
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btnCancel"
+        android:layout_width="41dp"
+        android:layout_height="47dp"
+        android:layout_marginEnd="50dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/cancel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.572" />
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_width="144dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/darkgreen"
+        android:drawableEnd="@drawable/checkspell"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/futura"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="CHECK"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

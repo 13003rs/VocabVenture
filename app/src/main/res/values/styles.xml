@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavigationViewStyle">
+        <item name="android:background">@drawable/selected_item_bg</item>
+    </style>
+    <style name="EditTextNoUnderline">
+        <item name="android:background">@null</item>
+    </style>
+</resources>

@@ -1,0 +1,1807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/vocablogo"
+        android:label="FinalProjectVocabVenture"
+        android:roundIcon="@drawable/vocablogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinalProjectVocabVenture"
+        tools:targetApi="31">
+        <activity
+            android:name=".GameInformation"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvReadQ10"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvReadQ9"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvReadQ8"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvReadQ7"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvReadQ6"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvReadQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvReadQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvReadQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvReadQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvReadQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterReadQ10"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterReadQ9"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterReadQ8"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterReadQ7"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterReadQ6"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterReadQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterReadQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterReadQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterReadQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterReadQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicReadQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicReadQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicReadQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicReadQ2"
+            android:exported="false"
+            android:theme="@style/Theme.FinalProjectVocabVenture" />
+        <activity
+            android:name=".QuizG5BasicReadQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterReadingQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterReadingQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterReadingQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterReadingQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterReadingQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvSpellingQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvSpellingQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvSpellingQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvSpellingQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvSpellingQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterSpellingQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterSpellingQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterSpellingQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterSpellingQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterSpellingQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicSpellingQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicSpellingQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicSpellingQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicSpellingQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicSpellingQ1"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpellingQuiz5"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpellingQuiz4"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpellingQuiz3"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpellingQuiz2"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpellingQuiz1"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpellingQuiz5"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpellingQuiz4"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpellingQuiz3"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpellingQuiz2"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpellingQuiz1"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpellingQuiz5"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpellingQuiz4"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpellingQuiz3"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpellingQuiz2"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpellingQuiz1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvReadQ10"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvReadQ9"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvReadQ8"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvReadQ7"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvReadQ6"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvReadQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvReadQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvReadQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvReadQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvReadQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvGrammarQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvGrammarQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvGrammarQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvGrammarQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvGrammarQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterGrammarQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterGrammarQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterGrammarQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterGrammarQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterGrammarQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicGrammarQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicGrammarQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicGrammarQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicGrammarQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicGrammarQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ12"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ11"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ10"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ9"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ8"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterRead2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ7"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ6"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterReadQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvSpellingQ6"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvSpellingQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvSpellingQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvSpellingQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvSpellingQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4AdvSpellingQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterSpellingQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterSpellingQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterSpellingQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterSpellingQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4InterSpellingQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicSpellingQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicSpellingQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicSpellingQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicSpellingQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicSpellingQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicReadQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicReadQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicReadQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicReadQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG4BasicReadQ1"
+            android:exported="true" />
+        <activity
+            android:name=".QuizG5AdvGrammarQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvGrammarQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvGrammarQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvGrammarQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5AdvGrammarQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterGrammarQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterGrammarQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterGrammarQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterGrammarQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5InterGrammarQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicGrammarQ2"
+            android:exported="false"
+            android:label="@string/title_activity_quiz_g5_basic_grammar_q2"
+            android:theme="@style/Theme.FinalProjectVocabVenture" />
+        <activity
+            android:name=".QuizG5BasicGrammarQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicGrammarQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicGrammarQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG5BasicGrammarQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvGrammarQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvGrammarQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvGrammarQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvGrammarQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3AdvGrammarQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterGrammarQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterGrammarQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterGrammarQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterGrammarQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3InterGrammarQ1"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3BasicGrammarQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3BasicGrammarQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3BasicGrammarQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3BasicGrammarQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3BasicGrammarQ1"
+            android:exported="false" />
+        <activity
+            android:name=".dialog_quiz"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3BasicReadQ4"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3BasicReadQ5"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3BasicReadQ3"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3BasicReadQ2"
+            android:exported="false" />
+        <activity
+            android:name=".QuizG3BasicReadQ1"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling30"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling29"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling28"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling27"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling26"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling25"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling24"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling23"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling22"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling21"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling20"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling19"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling18"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling17"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling16"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling15"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling14"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling13"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling12"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling11"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling10"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling9"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling8"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling7"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling6"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling5"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling4"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling3"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling2"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvSpelling1"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling21"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling20"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling19"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling18"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling17"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling16"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling15"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling14"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling13"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling12"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling11"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling10"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling9"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling8"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling7"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling6"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling5"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling4"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling3"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling2"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvSpelling1"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling21"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling20"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling19"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling18"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling17"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling16"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling15"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling14"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling13"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling12"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling11"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling10"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling9"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling8"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling7"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling6"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling5"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling4"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling3"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling2"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvSpelling1"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling28"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling27"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling26"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling25"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling24"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling23"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling22"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling21"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling20"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling19"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling18"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling17"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling16"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling15"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling14"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling13"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling12"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling11"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling10"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling9"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling8"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling7"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling6"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling5"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling4"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling3"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling2"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterSpelling1"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling20"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling19"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling18"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling17"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling16"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling15"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling14"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling13"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling12"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling11"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling10"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling9"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling8"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling7"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling6"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling5"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling4"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling3"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling2"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterSpelling1"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling20"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling19"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling18"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling17"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling16"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling15"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling14"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling13"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling12"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling11"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling10"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling9"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling8"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling7"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling6"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling5"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling4"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling3"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling2"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterSpelling1"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar12"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar11"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar10"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar9"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar8"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar7"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar6"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar5"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar4"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar3"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar2"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar15"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar14"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar13"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar12"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar11"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar10"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar9"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar8"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar7"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar6"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar5"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar4"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar3"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar2"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvGrammar10"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvGrammar9"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvGrammar8"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvGrammar7"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvGrammar6"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvGrammar5"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvGrammar4"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvGrammar3"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvGrammar2"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvGrammar1"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvGrammar1"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvGrammar1"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar15"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar14"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar13"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar12"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar11"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar10"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar9"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar8"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar7"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar6"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar5"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar4"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar3"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar2"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterGrammar1"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar16"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar15"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar14"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar13"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar12"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar11"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar10"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar9"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar8"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar7"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar6"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar5"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar4"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar3"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar2"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterGrammar1"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar18"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar17"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar16"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar15"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar14"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar13"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar12"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar11"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar10"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar9"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar8"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar7"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar6"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar5"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar4"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar3"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar2"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterGrammar1"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvRead3Next"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvRead2Next"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvRead1Next"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvRead3"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvRead2"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvRead3Next"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvRead2Next"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvRead1Next"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvRead3"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvRead2"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvRead3Next"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvRead2Next"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvRead1Next"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvRead3"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvRead2"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterRead3Next"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterRead3"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterRead2Next"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterRead2"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterRead1Next"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterRead3Next"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterRead3"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterRead2Next"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterRead2"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterRead1Next"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar18"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar17"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar16"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar15"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar14"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar13"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar12"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar11"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar10"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar9"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar8"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar7"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar6"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar5"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar4"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar3"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar2"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicGrammar1"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar15"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar14"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar13"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar12"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar11"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar10"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar9"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar8"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar7"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar6"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar5"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar4"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar3"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar2"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicGrammar1"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar14"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar13"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar12"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar11"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar10"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar9"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar8"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar7"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar6"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar5"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar4"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar3"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar2"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicGrammar1"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterRead3Next"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterRead2Next"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterRead2"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterRead1Next"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling20"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling19"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling18"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling17"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling16"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling15"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling14"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling13"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling12"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling11"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling10"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling9"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling8"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling7"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling6"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling5"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling4"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling3"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling2"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicSpelling1"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling19"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling18"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling17"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling16"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling15"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling14"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling13"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling12"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling11"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling10"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling9"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling8"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling7"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling6"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling5"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling4"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling3"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling2"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicSpelling1"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling20"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling19"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling18"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling17"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling16"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling15"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling14"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling13"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling12"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling11"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling10"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling9"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling8"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling7"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling6"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling5"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling4"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling3"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling2"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicSpelling1"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead16"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead15"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead14"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead13"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead12"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead11"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead10"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead9"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead8"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead7"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead6"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead5"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead4"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead3"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead2"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead16"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead15"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead14"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead13"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead12"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead11"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead10"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead9"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead8"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead7"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead6"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead5"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead4"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead3"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead2"
+            android:exported="false" />
+        <activity
+            android:name=".g5AdvRead1"
+            android:exported="false" />
+        <activity
+            android:name=".g4AdvRead1"
+            android:exported="false" />
+        <activity
+            android:name=".g3AdvRead1"
+            android:exported="false" />
+        <activity
+            android:name=".g5InterRead1"
+            android:exported="false" />
+        <activity
+            android:name=".g4InterRead1"
+            android:exported="false" />
+        <activity
+            android:name=".g3InterRead1"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
+            android:name=".g5BasicRead1"
+            android:exported="false" />
+        <activity
+            android:name=".g4BasicRead1"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead16"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead17"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead15"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead14"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead13"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead12"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead11"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead10"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead9"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead8"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead7"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead6"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead5"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead4"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead3"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead2"
+            android:exported="false" />
+        <activity
+            android:name=".g3BasicRead1"
+            android:exported="false" />
+        <activity
+            android:name=".Privacy_Policy"
+            android:exported="false" />
+        <activity
+            android:name=".OverallScoreAdvanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OverallScoreIntermediateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OverallScoreBasicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerformanceAdvanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerformanceIntermediateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerformanceBasicActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OverallScoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PerformanceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TermsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GradeLevelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

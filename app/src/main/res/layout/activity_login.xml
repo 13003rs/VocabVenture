@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/andika_new_basic"
+        android:gravity="center"
+        android:text="Login Account"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="290dp"
+        android:layout_height="258dp"
+        android:src="@drawable/vocablogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.137"
+        app:srcCompat="@drawable/vocablogo" />
+
+
+    <EditText
+        android:id="@+id/ptUsername"
+        android:layout_width="284dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:hint="username or email"
+        android:textColorHint="?android:textColorHint"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/ptPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvLogin" />
+
+    <EditText
+        android:id="@+id/ptPassword"
+        android:layout_width="284dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="35dp"
+        android:ems="10"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="?android:textColorHint"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ptUsername" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:letterSpacing="0"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:shape="rectangle"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#F7EDD4"
+        android:textSize="30dp"
+        app:backgroundTint="#B74D3F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:text="Don't have an account?    "
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <TextView
+        android:id="@+id/btnRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-14dp"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:letterSpacing="0.05"
+        android:text="Register"
+        android:textColor="#B74D3F"
+        android:textSize="19dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.912" />
+
+    <ToggleButton
+        android:id="@+id/togPassVisibility"
+        android:layout_width="28dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/toggle_button"
+        android:checked="false"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="@+id/ptPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ptPassword" />
+
+    <TextView
+        android:id="@+id/tvLoginUNError"
+        android:layout_width="294dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="-7dp"
+        android:fontFamily="@font/futura"
+        android:maxLines="1"
+        android:textColor="#E6453F"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/ptPassword"
+        app:layout_constraintEnd_toEndOf="@+id/ptUsername"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ptUsername"
+        app:layout_constraintTop_toBottomOf="@+id/ptUsername"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvLoginPassError"
+        android:layout_width="294dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="@font/futura"
+        android:maxLines="1"
+        android:textColor="#E6453F"
+        android:textSize="11dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ptPassword"
+        app:layout_constraintEnd_toEndOf="@+id/ptPassword"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/ptPassword"
+        app:layout_constraintTop_toTopOf="@+id/ptPassword"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

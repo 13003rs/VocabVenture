@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OverallScoreIntermediateActivity">
+
+
+    <ImageView
+        android:id="@+id/ivSplashBGOIntermediate"
+        android:layout_width="496dp"
+        android:layout_height="777dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vocabbg" />
+
+    <ImageView
+        android:id="@+id/ivBGOverallIntermediate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/bgoverallperformance" />
+
+    <ImageView
+        android:id="@+id/ivUsernameOverallIntermediate"
+        android:layout_width="181dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/un_holder" />
+
+    <ImageView
+        android:id="@+id/MedalOverallIntermediate"
+        android:layout_width="133dp"
+        android:layout_height="138dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ivSplashBGOIntermediate"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/ivSplashBGOIntermediate"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.128"
+        app:srcCompat="@drawable/medal" />
+
+    <TextView
+        android:id="@+id/tvYourReportOverallIntermediate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/YourReport"
+        android:textColor="@color/darkblue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/btnOverallIntermediate"
+        android:layout_width="153dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="-6dp"
+        android:backgroundTint="#2B4B7B"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/OverallScore"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.365" />
+
+    <TextView
+        android:id="@+id/tvUsernameOverallAdvance"
+        android:layout_width="111dp"
+        android:layout_height="22dp"
+        android:fontFamily="@font/muli"
+        android:text="@string/username"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.237"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.043" />
+
+    <ImageView
+        android:id="@+id/ivInfoOverallIntermediate"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/infoicon" />
+
+    <TextView
+        android:id="@+id/tvPerformanceOverallIntermediate"
+        android:layout_width="99dp"
+        android:layout_height="19dp"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/Performance"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <ImageView
+        android:id="@+id/ivBGIntermediateOverallPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgintermediate" />
+
+    <ImageView
+        android:id="@+id/ivIconsIntermediateOverallPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icons"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvIntermediateOverallTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:shadowColor="@color/white"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="@string/Intermediate"
+        android:textColor="@color/black"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <ImageView
+        android:id="@+id/ivExitIntermediateOverall"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/exiticonfinal" />
+
+    <TextView
+        android:id="@+id/tvRWIntermediateOverall"
+        android:layout_width="72dp"
+        android:layout_height="24dp"
+        android:fontFamily="@font/secular_one"
+        android:text="@string/reading"
+        android:textColor="@color/navyblue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <TextView
+        android:id="@+id/tvSpellingIntermediateOverallPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/secular_one"
+        android:text="@string/Spell"
+        android:textColor="@color/navyblue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <TextView
+        android:id="@+id/tvGrammarIntermediateOverallPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/secular_one"
+        android:text="@string/Gram"
+        android:textColor="@color/navyblue"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <TextView
+        android:id="@+id/tvAdvanceOverScoreReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:text="/10"
+        android:textColor="@color/green"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551" />
+
+    <TextView
+        android:id="@+id/tvAdvanceOverScoreSpelling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:text="/10"
+        android:textColor="@color/green"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.664" />
+
+    <TextView
+        android:id="@+id/tvAdvanceOverScoreGrammar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:text="/10"
+        android:textColor="@color/green"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.763"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758" />
+
+    <TextView
+        android:id="@+id/tvIndvScoreInterPageReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:text="0"
+        android:textColor="@color/green"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552" />
+
+    <TextView
+        android:id="@+id/tvIndvScoreInterPageSpelling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:text="0"
+        android:textColor="@color/green"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.663" />
+
+    <TextView
+        android:id="@+id/tvIndvScoreInterPageGrammar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:text="0"
+        android:textColor="@color/green"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.664"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.758" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btmNavBarOverallIntermediate"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:background="@drawable/navbarholder"
+        app:elevation="10dp"
+        app:itemBackground="@drawable/navbar_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:menu="@menu/nav_menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/PerformanceLayoutIntermediateOverall"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPerformanceNavBarIntermediateOverall"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/performance_con" />
+
+                <TextView
+                    android:id="@+id/PerformanceIntermediateOverall"
+                    android:layout_width="72dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/ivPerformanceNavBarIntermediateOverall"
+                    android:fontFamily="@font/muli"
+                    android:text="Performance"
+                    android:textColor="@color/white"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/HomeLayoutIntermediateOverall"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivHomeNavBarIntermediateOverall"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/home_icon"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvHomeIntermediateOverall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ivHomeNavBarIntermediateOverall"
+                    android:fontFamily="@font/muli"
+                    android:text="Home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ProfileLayoutIntermediateOverall"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivProfileNavBarIntermediateOverall"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/profile_icon"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvProfileIntermediateOverall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ivProfileNavBarIntermediateOverall"
+                    android:fontFamily="@font/muli"
+                    android:text="Profile"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

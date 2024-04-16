@@ -1,0 +1,9 @@
+<!-- res/drawable/selected_item_bg.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Round shape with a solid color for the selected menu -->
+    <solid android:color="#409C40" />
+    <corners android:radius="25dp" />
+
+    <size android:width="50dp"
+        android:height="10dp"/>
+</shape>

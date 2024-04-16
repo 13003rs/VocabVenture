@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/diffLvlLayout"
+        android:layout_width="394dp"
+        android:layout_height="787dp"
+        android:background="@drawable/vocabbg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/btnHomeNav"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="40dp"
+            android:foreground="@drawable/infoicon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/homeUNholder"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.030" />
+
+        <ImageView
+            android:id="@+id/unHolder"
+            android:layout_width="180dp"
+            android:layout_height="92dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/un_holder" />
+
+        <ImageView
+            android:id="@+id/ivChooseDiffLvl"
+            android:layout_width="262dp"
+            android:layout_height="153dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="90dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/choosedifflvl" />
+
+        <!-- FrameLayout for the fragment container -->
+        <TextView
+            android:id="@+id/tvHomeUsername"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/futura"
+            android:textColor="#000000"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:id="@+id/fragmentholder"
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="85dp">
+
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragments"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+
+
+        <!-- BottomNavigationView -->
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bnvNavBar"
+            android:layout_width="345dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/navbarholder"
+            app:elevation="10dp"
+            app:itemBackground="@drawable/navbar_selector"
+            app:menu="@menu/nav_menu">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!--- Menu item #1 - Performance-->
+
+                <RelativeLayout
+                    android:id="@+id/PerformanceLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/navbar_selector"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ivPerformanceIcon"
+                        android:layout_width="48dp"
+                        android:layout_height="22dp"
+                        android:visibility="visible"
+                        app:srcCompat="@drawable/performance_con" />
+
+                    <TextView
+                        android:id="@+id/tvPerformance"
+                        android:layout_width="72dp"
+                        android:layout_height="13dp"
+                        android:layout_marginLeft="-7dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_toRightOf="@+id/ivPerformanceIcon"
+                        android:fontFamily="@font/muli"
+                        android:text="Performance"
+                        android:textColor="@color/white"
+                        android:textSize="11sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+                </RelativeLayout>
+
+                <!--- Menu item #2 - Home-->
+
+                <RelativeLayout
+                    android:id="@+id/HomeLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/navbar_selector"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ivHomeIcon"
+                        android:layout_width="48dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/home_icon"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/tvHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-7dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@id/ivHomeIcon"
+                        android:fontFamily="@font/muli"
+                        android:text="Home"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+                </RelativeLayout>
+
+                <!--- Menu item #3 - Profile-->
+
+                <RelativeLayout
+                    android:id="@+id/ProfileLayout"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/navbar_selector"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/ivProfileIcon"
+                        android:layout_width="48dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/profile_icon"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/tvProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="-7dp"
+                        android:layout_marginTop="2dp"
+                        android:layout_toRightOf="@id/ivProfileIcon"
+                        android:fontFamily="@font/muli"
+                        android:text="Profile"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+                </RelativeLayout>
+            </LinearLayout>
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+        <!-- CardViews for different levels -->
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvBasic"
+            android:layout_width="269dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="250dp"
+            app:cardBackgroundColor="#428AB4"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/ivHomeBasic"
+                android:layout_width="160dp"
+                android:layout_height="171dp"
+                android:layout_marginLeft="-25dp"
+                android:layout_marginTop="-30dp"
+                app:srcCompat="@drawable/basic_icon" />
+
+            <TextView
+                android:id="@+id/tvHomeBasic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/futura"
+                android:text="Basic"
+                android:textColor="#FFFFFF"
+                android:textSize="50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvHomeIntermediate"
+            android:layout_width="269dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="390dp"
+            app:cardBackgroundColor="#7268CF"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/ivHomeIntermediate"
+                android:layout_width="139dp"
+                android:layout_height="121dp"
+                android:layout_marginLeft="-5dp"
+                android:layout_marginTop="-5dp"
+                app:srcCompat="@drawable/inter_icon" />
+
+            <TextView
+                android:id="@+id/tvHomeIntermediate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/futura"
+                android:text="Intermediate"
+                android:textColor="#FFFFFF"
+                android:textSize="42dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvHomeAdvance"
+            android:layout_width="269dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="530dp"
+            app:cardBackgroundColor="#E7CC41"
+            app:cardCornerRadius="15dp">
+
+            <ImageView
+                android:id="@+id/ivHomeAdvance"
+                android:layout_width="120dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="-10dp"
+                app:srcCompat="@drawable/advance_icon" />
+
+            <TextView
+                android:id="@+id/tvHomeAdvance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/futura"
+                android:text="Advanced"
+                android:textColor="#FFFFFF"
+                android:textSize="45dp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

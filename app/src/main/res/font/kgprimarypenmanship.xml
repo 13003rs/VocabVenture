@@ -1,0 +1,7 @@
+<!-- res/font/custom_font.xml -->
+<font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font
+        app:fontStyle="normal"
+        app:fontWeight="400"
+        app:font="@font/kgpp" />
+</font-family>

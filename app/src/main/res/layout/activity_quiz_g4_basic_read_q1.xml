@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g4basicreadq1"
+    tools:context=".QuizG4BasicReadQ1">
+
+    <Button
+        android:id="@+id/btnTown"
+        android:layout_width="249dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="363dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="324dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/btnCrown"
+        android:layout_width="236dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="433dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="230dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnDown"
+        android:layout_width="244dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="511dp"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="125dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

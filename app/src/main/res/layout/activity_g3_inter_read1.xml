@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/interbgread"
+    tools:context=".g3InterRead1">
+
+    <ImageView
+        android:id="@+id/playBtn1"
+        android:layout_width="132dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="203dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/play" />
+
+    <ImageView
+        android:id="@+id/playBtn2"
+        android:layout_width="132dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="77dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="152dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/btnNext"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="277dp"
+        android:layout_marginTop="653dp"
+        android:layout_marginEnd="78dp"
+        android:clickable="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="653dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

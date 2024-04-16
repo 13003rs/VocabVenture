@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/quiz_header"
+        android:layout_width="343dp"
+        android:layout_height="104dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/quiz_header"/>
+
+    <TextView
+        android:id="@+id/quizTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/quiz_header"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="🤔QUIZ TIME🤔"
+        android:textColor="#1784A5"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/yourtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/quizTime"
+        android:layout_marginLeft="35sp"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="Proceed to the quiz?"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

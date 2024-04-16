@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/header"
+        android:layout_width="343dp"
+        android:layout_height="104dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:id="@+id/sorrytxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header"
+        android:layout_marginLeft="70sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="🥺SORRY🥺"
+        android:textColor="#D46156"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/yourstxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sorrytxt"
+        android:layout_marginLeft="60sp"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="Your answer is"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yourstxt"
+        android:fontFamily="@font/andika_new_basic_bold"
+        android:text="INCORRECT"
+        android:textColor="#D46156"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="50sp"/>
+
+</RelativeLayout>

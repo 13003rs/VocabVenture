@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerformanceIntermediateActivity">
+
+
+    <ImageView
+        android:id="@+id/ivSplashBGPerformanceIntermediate"
+        android:layout_width="496dp"
+        android:layout_height="777dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/vocabbg" />
+
+    <ImageView
+        android:id="@+id/ivBGPerformanceIntermediate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgoverallperformance" />
+
+    <ImageView
+        android:id="@+id/ivUsernamePerformanceIntermediate"
+        android:layout_width="181dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007"
+        app:srcCompat="@drawable/un_holder" />
+
+    <ImageView
+        android:id="@+id/ivMedalPerformanceIntermediate"
+        android:layout_width="133dp"
+        android:layout_height="138dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        app:srcCompat="@drawable/medal" />
+
+    <TextView
+        android:id="@+id/tvUsernamaPerformanceIntermediate"
+        android:layout_width="109dp"
+        android:layout_height="21dp"
+        android:fontFamily="@font/muli"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.284"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.04" />
+
+    <TextView
+        android:id="@+id/tvYourReportPerformanceIntermediate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="@string/YourReport"
+        android:textColor="@color/darkblue"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/btnPerformanceIntermediate"
+        android:layout_width="156dp"
+        android:layout_height="51dp"
+        android:layout_marginLeft="6dp"
+        android:backgroundTint="#2B4B7B"
+        android:fontFamily="@font/sniglet"
+        android:letterSpacing="0"
+        android:text="@string/Performance"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.759"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.358" />
+
+    <TextView
+        android:id="@+id/tvOverallIntermediate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sniglet"
+        android:text="@string/OverallScore"
+        android:textColor="@color/white"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.366" />
+
+    <ImageView
+        android:id="@+id/ivInfoPerformanceIntermediate"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022"
+        app:srcCompat="@drawable/infoicon" />
+
+    <ImageView
+        android:id="@+id/ivBGIntermediatePerformance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgintermediate" />
+
+    <TextView
+        android:id="@+id/tvIntermediatePerformanceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/muli"
+        android:shadowColor="#000000"
+        android:shadowDx="1.5"
+        android:shadowDy="1.3"
+        android:shadowRadius="1.6"
+        android:text="@string/Intermediate"
+        android:textColor="@color/white"
+        android:textSize="27sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454"/>
+
+    <ImageView
+        android:id="@+id/ivExitIntermediatePerformance"
+        android:layout_width="34dp"
+        android:layout_height="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.777"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/exiticonfinal" />
+
+    <ImageView
+        android:id="@+id/ivIconsIntermediatePerformance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/icons" />
+
+    <TextView
+        android:id="@+id/tvRWIntermediatePerformance"
+        android:layout_width="105dp"
+        android:layout_height="57dp"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:lineSpacingExtra="-8dp"
+        android:text="@string/RW"
+        android:textColor="@color/navyblue"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.55" />
+
+    <TextView
+        android:id="@+id/tvSpellingIntermediatePerformance"
+        android:layout_width="66dp"
+        android:layout_height="25dp"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:text="@string/Spell"
+        android:textColor="@color/navyblue"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.649" />
+
+    <TextView
+        android:id="@+id/tvGrammarIntermediatePerformance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:text="@string/Gram"
+        android:textColor="@color/navyblue"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+    <ProgressBar
+        android:id="@+id/prgBarRWPerformanceIntermediate"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="74dp"
+        android:layout_height="28dp"
+        android:progressTint="#80AF44"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.765"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54"/>
+
+    <ProgressBar
+        android:id="@+id/prgBarSpellPerformanceIntermediate"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="69dp"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.769"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.652" />
+
+    <ProgressBar
+        android:id="@+id/prgBarGrammarPerformanceIntermediate"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="67dp"
+        android:layout_height="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.77"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/btmNavBarPerformanceIntermediate"
+        android:layout_width="345dp"
+        android:layout_height="45dp"
+        android:background="@drawable/navbarholder"
+        app:elevation="10dp"
+        app:itemBackground="@drawable/navbar_selector"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        app:menu="@menu/nav_menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/PerformanceLayoutIntermediatePerformance"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPerformanceNavBarIntermediatePerformance"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/performance_con" />
+
+                <TextView
+                    android:id="@+id/PerformanceIntermediatePerformance"
+                    android:layout_width="72dp"
+                    android:layout_height="13dp"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="4dp"
+                    android:layout_toRightOf="@+id/ivPerformanceNavBarIntermediatePerformance"
+                    android:fontFamily="@font/muli"
+                    android:text="Performance"
+                    android:textColor="@color/white"
+                    android:textSize="11sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/HomeLayoutIntermediatePerformance"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivHomeNavBarIntermediatePerformance"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/home_icon"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvHomeIntermediatePerformance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ivHomeNavBarIntermediatePerformance"
+                    android:fontFamily="@font/muli"
+                    android:text="Home"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ProfileLayoutIntermediatePerformance"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/navbar_selector"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivProfileNavBarIntermediatePerformance"
+                    android:layout_width="48dp"
+                    android:layout_height="22dp"
+                    android:src="@drawable/profile_icon"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvProfileIntermediatePerformance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-7dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_toRightOf="@id/ivProfileNavBarIntermediatePerformance"
+                    android:fontFamily="@font/muli"
+                    android:text="Profile"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

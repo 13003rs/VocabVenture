@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvPerfBasic"
+        android:layout_width="314dp"
+        android:layout_height="145dp"
+        app:cardBackgroundColor="#E7CC41"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.047">
+
+        <ImageView
+            android:id="@+id/ivAdvance"
+            android:layout_width="135dp"
+            android:layout_height="166dp"
+            app:srcCompat="@drawable/advance_icon" />
+
+        <TextView
+            android:id="@+id/tvAdvanceFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="45dp"
+            android:fontFamily="@font/futura"
+            android:text="Advance"
+            android:textColor="#FFFFFF"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/btnAdvanceExit"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/ivAdvanceExit"
+            android:layout_width="34dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="260dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/exit_icon" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="484dp"
+        android:layout_marginTop="-20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvPerfBasic">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cvAdvanceSubCateg"
+            android:layout_width="328dp"
+            android:layout_height="455dp"
+            android:layout_marginLeft="6dp"
+            app:cardBackgroundColor="#E8D579"
+            app:cardCornerRadius="15dp" >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/btnAdvanceReadWrite"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="268dp"
+                    android:layout_height="104dp"
+                    android:text="Reading and Writing"
+                    android:textColor="#E7D479"
+                    android:textSize="2sp"
+                    app:cornerRadius="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.253"
+                    app:strokeColor="#FFFFFF"
+                    app:strokeWidth="3dp" />
+
+                <Button
+                    android:id="@+id/btnAdvanceSpelling"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="268dp"
+                    android:layout_height="104dp"
+                    android:text="Spelling"
+                    android:textColor="#E7D479"
+                    android:textSize="2sp"
+                    app:cornerRadius="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnAdvanceReadWrite"
+                    app:layout_constraintVertical_bias="0.101"
+                    app:strokeColor="#FFFFFF"
+                    app:strokeWidth="3dp" />
+
+                <Button
+                    android:id="@+id/btnAdvanceGrammar"
+                    style="@style/Widget.Material3.Button.OutlinedButton"
+                    android:layout_width="268dp"
+                    android:layout_height="104dp"
+                    android:text="Grammar"
+                    android:textColor="#E7D479"
+                    android:textSize="2sp"
+                    app:cornerRadius="15dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/btnAdvanceSpelling"
+                    app:layout_constraintVertical_bias="0.289"
+                    app:strokeColor="#FFFFFF"
+                    app:strokeWidth="3dp" />
+
+                <TextView
+                    android:id="@+id/tvAdvanceGrammar"
+                    android:layout_width="163dp"
+                    android:layout_height="55dp"
+                    android:fontFamily="@font/kgprimarypenmanship"
+                    android:lineSpacingExtra="-10dp"
+                    android:text="Grammar"
+                    android:textColor="#FFFFFF"
+                    android:textSize="50dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnAdvanceGrammar"
+                    app:layout_constraintEnd_toEndOf="@+id/btnAdvanceGrammar"
+                    app:layout_constraintHorizontal_bias="0.789"
+                    app:layout_constraintStart_toEndOf="@+id/ivPerfBasic"
+                    app:layout_constraintTop_toTopOf="@+id/btnAdvanceGrammar"
+                    app:layout_constraintVertical_bias="0.489" />
+
+                <ImageView
+                    android:id="@+id/ivAdvanceReadWrite"
+                    android:layout_width="111dp"
+                    android:layout_height="98dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnAdvanceReadWrite"
+                    app:layout_constraintEnd_toEndOf="@+id/btnAdvanceReadWrite"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/btnAdvanceReadWrite"
+                    app:layout_constraintTop_toTopOf="@+id/btnAdvanceReadWrite"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/readwrite_icon" />
+
+                <TextView
+                    android:id="@+id/tvAdvanceReadWrite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/kgprimarypenmanship"
+                    android:lineSpacingExtra="-10dp"
+                    android:text="Reading"
+                    android:textColor="#FFFFFF"
+                    android:textSize="50dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnAdvanceReadWrite"
+                    app:layout_constraintEnd_toEndOf="@+id/btnAdvanceReadWrite"
+                    app:layout_constraintHorizontal_bias="0.323"
+                    app:layout_constraintStart_toEndOf="@+id/ivAdvanceReadWrite"
+                    app:layout_constraintTop_toTopOf="@+id/btnAdvanceReadWrite"
+                    app:layout_constraintVertical_bias="0.466" />
+
+                <TextView
+                    android:id="@+id/tvAdvanceSpelling"
+                    android:layout_width="124dp"
+                    android:layout_height="54dp"
+                    android:fontFamily="@font/kgprimarypenmanship"
+                    android:lineSpacingExtra="-10dp"
+                    android:text="Spelling"
+                    android:textColor="#FFFFFF"
+                    android:textSize="50dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnAdvanceSpelling"
+                    app:layout_constraintEnd_toEndOf="@+id/btnAdvanceSpelling"
+                    app:layout_constraintHorizontal_bias="0.156"
+                    app:layout_constraintStart_toEndOf="@+id/ivAdvanceSpelling"
+                    app:layout_constraintTop_toTopOf="@+id/btnAdvanceSpelling"
+                    app:layout_constraintVertical_bias="0.52" />
+
+                <ImageView
+                    android:id="@+id/ivAdvanceSpelling"
+                    android:layout_width="93dp"
+                    android:layout_height="107dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnAdvanceSpelling"
+                    app:layout_constraintEnd_toEndOf="@+id/btnAdvanceSpelling"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/btnAdvanceSpelling"
+                    app:layout_constraintTop_toTopOf="@+id/btnAdvanceSpelling"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:srcCompat="@drawable/spelling_icon" />
+
+                <ImageView
+                    android:id="@+id/ivPerfBasic"
+                    android:layout_width="79dp"
+                    android:layout_height="85dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/btnAdvanceGrammar"
+                    app:layout_constraintEnd_toEndOf="@+id/btnAdvanceGrammar"
+                    app:layout_constraintHorizontal_bias="0.037"
+                    app:layout_constraintStart_toStartOf="@+id/btnAdvanceGrammar"
+                    app:layout_constraintTop_toTopOf="@+id/btnAdvanceGrammar"
+                    app:layout_constraintVertical_bias="0.421"
+                    app:srcCompat="@drawable/grammar_icon" />
+
+                <TextView
+                    android:id="@+id/tvAdvanceLesson"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/futura"
+                    android:text="Choose a Lesson"
+                    android:textColor="#000000"
+                    android:textSize="28dp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toTopOf="@+id/btnAdvanceReadWrite"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.711" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

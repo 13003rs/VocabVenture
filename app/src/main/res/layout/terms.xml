@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vocabbg"
+    tools:context=".TermsActivity">
+
+    <Button
+        android:id="@+id/acceptButtonTerm"
+        android:layout_width="98dp"
+        android:layout_height="36dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="79dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:onClick="onAcceptButtonClick"
+        android:text="Accept"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/accept_button_background" />
+
+    <Button
+        android:id="@+id/declineButtonTerm"
+        android:layout_width="98dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="18dp"
+        android:layout_toStartOf="@id/acceptButtonTerm"
+        android:background="@drawable/custom_button"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:onClick="onDeclineButtonClick"
+        android:text="Decline"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/decline_button_background" />
+
+    <TextView
+        android:id="@+id/TvTerms"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/popup"
+        android:fontFamily="@font/kgprimarypenmanship"
+        android:text="\t          Terms &amp; Conditions"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="68dp"
+        android:layout_height="57dp"
+        android:layout_marginLeft="25sp"
+        android:layout_marginTop="35sp"
+        android:background="@drawable/vocablogo" />
+
+    <View
+        android:id="@+id/Line"
+        android:layout_width="13in"
+        android:layout_marginLeft="25sp"
+        android:layout_height="3dp"
+        android:layout_marginTop="100sp"
+        android:background="@color/black" />
+
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="560dp"
+        android:layout_below="@+id/Line"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/popup"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvTerms1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="15sp"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="By using this app, you automatically agree to its terms, so take a moment to read them. Remember, no copying, modifying, or messing with trademarks. Resist the temptation to peek at the source code or create your own versions. Everything, from trademarks to intellectual property, belongs to JDRKC."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:layout_marginBottom="0sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="1. Changes to the App Service"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvTerms2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="-15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="JDRKC is dedicated to optimizing the app's efficiency, and therefore, reserves the right to modify the app or introduce service charges at its discretion. Changes may occur at any time and for any reason. Importantly, users will be transparently informed before incurring any charges for the app or its services."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="2. Data Security and Usage"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/tvTerms3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="-15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="The VocabVenture app securely stores and processes the personal data you provide to enhance its services for our project. Ensuring the security of your phone and app access is your responsibility. We strongly advise against jailbreaking or rooting your phone, as this may expose it to potential security risks, compromising the integrity of the data and possibly affecting the proper functioning of the VocabVenture app in the context of our case study."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="3. Limitations and Responsibility"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvTerms4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="-15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="JDRKC is not accountable for certain aspects related to the app. Some features require an active internet connection, either through Wi-Fi or your mobile network. If you lack Wi-Fi access or have depleted your data allowance, the app may not function at its full capacity, and JDRKC is not responsible for this limitation. When using the app outside Wi-Fi coverage, your mobile network provider's terms and charges apply, including potential costs for data usage or third-party charges. By using the app, you accept responsibility for such charges, including roaming data fees if used outside your home territory, assuming you have permission from the bill payer if you're not the account holder."
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="4. User's Responsibility and App Usage"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tvTerms5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="-15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="Users are responsible for their app usage, and JDRKC cannot be held responsible for individual actions. Ensuring your device stays charged is crucial; if it runs out of battery, JDRKC is not liable for service unavailability. While efforts are made to keep the app updated, reliance on third-party information introduces uncertainty, and JDRKC accepts no responsibility for any direct or indirect losses resulting from relying solely on the app's functionality. Users should be mindful of these limitations."
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="277dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20sp"
+                android:fontFamily="@font/kgprimarypenmanship"
+                android:text="5. Changes to This Terms and Conditions"
+                android:textColor="@color/black"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:id="@+id/tvChangesContent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15sp"
+                android:layout_marginTop="-15sp"
+                android:layout_marginEnd="15sp"
+                android:layout_marginBottom="15sp"
+                android:fontFamily="@font/andika_new_basic"
+                android:text="We may update our Terms and Conditions from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Terms and Conditions on this page.
+These terms and conditions are effective as of 2023-11-16 \n\n"
+                android:textSize="15sp" />
+
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <ImageView
+        android:id="@+id/ivClose"
+        android:layout_width="54dp"
+        android:layout_height="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50sp"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+</RelativeLayout>

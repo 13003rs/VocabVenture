@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/performance_menu"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/home_menu"
+        tools:ignore="MenuTitle" />
+    <item android:id="@+id/profile_menu"
+        tools:ignore="MenuTitle" />
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/done_header"
+        android:layout_width="343dp"
+        android:layout_height="104dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/done_header"/>
+
+    <TextView
+        android:id="@+id/wellDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/done_header"
+        android:layout_marginLeft="50sp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="🥳WELL DONE!🥳"
+        android:textColor="#1784A5"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/yourtxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/wellDone"
+        android:layout_marginLeft="35sp"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="You will be redirected"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/redirected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yourtxt"
+        android:layout_marginLeft="80sp"
+        android:fontFamily="@font/andika_new_basic"
+        android:text="to homepage"
+        android:textColor="@color/black"
+        android:textSize="25sp"/>
+
+</RelativeLayout>

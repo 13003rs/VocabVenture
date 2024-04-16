@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g5interreadq2"
+    tools:context=".QuizG5InterReadQ2">
+
+    <Button
+        android:id="@+id/btn_leak"
+        android:layout_width="242dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginEnd="82dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_curtains"
+        android:layout_width="242dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="82dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_furniture"
+        android:layout_width="239dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="556dp"
+        android:layout_marginEnd="82dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

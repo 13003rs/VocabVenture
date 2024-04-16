@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g3interspellquiz"
+    tools:context=".g3AdvSpellingQuiz2">
+
+    <Button
+        android:id="@+id/btnCheckG3AdvSpellQuiz"
+        android:layout_width="144dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginEnd="50dp"
+        android:backgroundTint="@color/darkgreen"
+        android:drawableEnd="@drawable/checkspell"
+        android:drawablePadding="8dp"
+        android:fontFamily="@font/futura"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:text="CHECK"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <ImageButton
+        android:id="@+id/btnClearG3AdvSpellQuiz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:background="@drawable/cancel"
+        app:layout_constraintBottom_toBottomOf="@+id/btnNG3BasicSpellQ1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/etTxtAnsBox"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <EditText
+        android:id="@+id/etTxtAnsBox"
+        android:layout_width="276dp"
+        android:layout_height="52dp"
+        android:background="@drawable/txtansbox"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.687" />
+
+    <ImageButton
+        android:id="@+id/btnG3AdvanceSpellSound"
+        android:layout_width="116dp"
+        android:layout_height="128dp"
+        android:background="@drawable/soundbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.482" />
+</androidx.constraintlayout.widget.ConstraintLayout>

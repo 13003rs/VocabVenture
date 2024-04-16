@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="selector">#359F35</color>
+    <color name="darkblue">#193970</color>
+    <color name="blue">#2A6D94</color>
+    <color name="yellow">#E4C522</color>
+    <color name="purple">#5C50C8</color>
+    <color name="navyblue">#013380</color>
+    <color name="green">#005B02</color>
+    <color name="hunterblue">#1C51A6</color>
+    <color name="creamgrey">#CFC2C2</color>
+    <color name="grey">#CFC2C2</color>
+    <color name="darkgreen">#097B0B</color>
+    <color name="accept_button_background">#80AE44</color>
+    <color name="decline_button_background">#B74D3F</color>
+    <color name="advback">#FFCF51</color>
+    <color name="cream">#EDF2C2</color>
+    <color name="lockedColor">#808080</color> <!-- for the locked color on play button -->
+</resources>

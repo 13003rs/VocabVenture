@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/g5advancedreadq7"
+    tools:context=".QuizG5AdvReadQ7">
+
+    <Button
+        android:id="@+id/btn_kids"
+        android:layout_width="230dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="376dp"
+        android:layout_marginEnd="82dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnPills"
+        android:layout_width="219dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="82dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnIndivid"
+        android:layout_width="233dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="82dp"
+        android:background="@android:color/transparent"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
